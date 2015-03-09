@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-
-
 gem 'rails', '4.1.7'
 gem 'haml'
 gem 'pg'
@@ -18,7 +16,7 @@ gem 'faker'
 gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
-gem 'bcrypt'
+# gem 'bcrypt'
 
 group :development, :test do 
   gem 'pry'
