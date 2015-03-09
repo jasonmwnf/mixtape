@@ -1,7 +1,9 @@
 == README
 
-This is a feature test for a larger, future project. Mixtapes functionality will include: 
+This is a feature test for a larger, future project. Mixtape's functionality will include: 
 
   * Generating a random "Mixtape" of 10 songs 
   * User can choose which genre his/her mixtape is generated from
   * Songs are pulled from "Albums", which will be on a Bands profile page
+
+For this test I will have a small group of bands and albums 'hard coded'. 
