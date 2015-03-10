@@ -1,2 +1,7 @@
 %h1 
   = @band.name
+%hr
+%h3 Songs:
+- @band.songs.each do |song|
+  = song.title
+  %br
