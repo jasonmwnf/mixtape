@@ -16,7 +16,7 @@ gem 'faker'
 gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt'
+gem 'bcrypt'
 
 group :development, :test do 
   gem 'pry'
