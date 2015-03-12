@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'pages#front'
 
   resources :bands, only: [:show]
+  resources :users, only: [:new, :create]
   get '/home', to: "sessions#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
